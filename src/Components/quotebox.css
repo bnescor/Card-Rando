@@ -42,6 +42,7 @@
 .bx.bxl-slack{
     font-size: 25px;
     color: white;
+    
 }
 @media (598px>=width) {
     .Card{
@@ -56,6 +57,23 @@
         background-color: white;
         padding: 0.6rem;
         row-gap: 1.6rem
+    }
+    
+}
+@media (800px<=width) {
+    .Card{
+        width: 350px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+        border-radius: 15px;
+        box-shadow: 5px 5px 10px 0 black;
+        background-color: white;
+        padding: 0.6rem;
+        row-gap: 1.6rem;
+        transform: scale(1.5);
     }
     
 }
