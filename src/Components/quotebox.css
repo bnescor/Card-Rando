@@ -1,0 +1,61 @@
+.Card{
+    width: 560px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px 0 black;
+    background-color: white;
+    padding: 0.6rem;
+    row-gap: 1.6rem
+}
+.qoute-main{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    column-gap: 3px;
+    text-align: center;
+}
+.bx.bxs-quote-alt-left{
+    font-size: 35px;
+}
+.Autor-main{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.Card button{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    box-shadow: 1.5px 1.5px 5px 0 black;
+    border: none;
+}
+.bx.bxl-slack{
+    font-size: 25px;
+    color: white;
+}
+@media (598px>=width) {
+    .Card{
+        width: 85%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+        border-radius: 15px;
+        box-shadow: 5px 5px 10px 0 black;
+        background-color: white;
+        padding: 0.6rem;
+        row-gap: 1.6rem
+    }
+    
+}
