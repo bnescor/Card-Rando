@@ -4,7 +4,7 @@ import qoute from '../JSON/qoute.json'
 
 const QuoteBox = ({NewColor,setNewColor,functionRandocolor}) => {
     const funcionNumberRando = () => {
-        const Rando = Math.floor(Math.random() * qoute.length - 1)
+        const Rando = Math.ceil(Math.random() * qoute.length - 1)
         return Rando
     }
     const [Getrando, setGetrando] = useState(qoute[funcionNumberRando()])
